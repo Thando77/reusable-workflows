@@ -1,4 +1,5 @@
 name: ci-pipelines
+#Reusable workflow to be called from other workflows
 
 on:
   workflow_call:
@@ -11,9 +12,6 @@ on:
         required: true
       DOCKERHUB_PASSWORD:
         required: true
-            
-  pull_request:
-    types: [opened, synchronize, reopened]
 
 jobs:
   unit-tests:
