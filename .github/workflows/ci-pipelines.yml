@@ -6,8 +6,6 @@ on:
     secrets:
       SONAR_TOKEN:
         required: true
-      GITHUB_TOKEN:
-        required: false
       DOCKERHUB_USERNAME:
         required: true
       DOCKERHUB_PASSWORD:
