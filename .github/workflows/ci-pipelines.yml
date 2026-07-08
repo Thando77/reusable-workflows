@@ -7,7 +7,7 @@ on:
       SONAR_TOKEN:
         required: true
       GITHUB_TOKEN:
-        required: true
+        required: false
       DOCKERHUB_USERNAME:
         required: true
       DOCKERHUB_PASSWORD:
