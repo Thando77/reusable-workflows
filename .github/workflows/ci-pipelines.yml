@@ -7,7 +7,7 @@ on:
       run_unit-tests:
         description: 'Run Unit Tests'
         default: true
-        required: true
+        required: false
         type: boolean
       
       run_codeql:
@@ -25,13 +25,13 @@ on:
       run_docker:
         description: 'Run Docker Build and Push'
         default: true
-        required: true
+        required: false
         type: boolean
 
       run_publish_to_dockerhub:
         description: 'Publish Docker Image to DockerHub'
         default: true
-        required: true
+        required: false
         type: boolean
 
       run_publish_to_github_container_registry:
